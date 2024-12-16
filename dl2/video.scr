@@ -1,0 +1,105 @@
+!WindowMode(i)                 // 0=windowed, 1=borderless, 2=fullscreen
+!WindowOffset(i,i)             // window position in pixels 
+!Monitor(i)                    // index of primary monitor
+!MonitorSecondary(i)           // index of secondary monitor
+!RendererMode(s)               // d3d11, d3d12 
+!FSR(f)                        // FSR sharpness
+!ExtraGameFov(f)               // extra fov
+!DisableDWM(i)                 // disables DWM when fullscreen
+!RT_AO()                       // raytraced ambient occlusion
+!RT_SS()                       // raytraced soft shadows
+!RT_Lit()                      // raytraced flashlight
+!RT_GiDif()                    // raytraced global illumination (diffuse)
+!RT_GiSpc()                    // raytraced global illumination (specular)
+!AsyncCompute(i)               // 0=deny async computes, 1=allow async computes if supported, 
+!Resolution(i,i)               // UI/window resolution of primary monitor
+!ResolutionSecondary(i,i)      // UI/window resolution of secondary monitor
+!Scale3D(f)                    // UI resolution * Scale3D = 3D resolution
+!Upscaler(i)                   // 0=none, 1=linear; 2=DLSS; 3=FSR, 4=FSR2, 5=XeSS
+!Upscaling(i)                  // 0=best performance, 1=balanced, 2=bestquality
+!TextureQuality(s)             // Low, Medium, High
+!GammaFloat(f)
+!ShadowsPreset(i)
+!ShadowsQuality(i)             // 0=PCF, 1=PCSS low, 2=PCSS medium, 3=PCSS high, 4=raytraced
+!ShadowMapSize(i)
+!SpotShadowMapSize(i)
+!FrameRate(i)                  // 0=no VSync, 1=Max device refresh rate, 30 - 30Hz, 60 - 60Hz
+!Vrr()                         // Variable Refresh Rate
+!Reflex(i)                     // 0=off, 1=on, 2=on + boost
+!GrassQuality(i)               // lower is better
+!MotionBlur(i)                 // 0=disabled, 1=enabled
+!MotionBlurQuality(s)          // Low, Medium, High
+!MotionBlurIntensity(f)        // 0=min 1=max
+!Bokeh(i)                      // 0=off, 1=on
+!GlowGlare(i)                  // 0=off 1=on
+!GlowStreaks(i)                // 0=off 1=on
+!LensFlare(i)                  // 0=off 1=on
+!SSSSQuality(i)                // 0=low, 1=medium, 2=high
+!ChromaticAberration(i)        // 0=disabled, 1=enabled
+!FilmGrain(i)                  // 0=disabled, 1=enabled
+!ColorGrading(i)               // 0=normal, 1=e3
+!AntiAliasing(i)               // 0=disabled, 1=enabled
+!AntiAliasingMode(i)           // 0=sharp, 1=stable
+!FogQuality(i)                 // 0=low, 1=medium, 2=high
+!ReflectionsQuality(i)         // 0=low, 1=medium, 2=high
+!ContactShadowsQuality(i)      // 0=none, 1=low, 2=medium, 3=high, 4=very high
+!SpotShadowsQuality(i)         // 0=low, 1=medium, 2=high
+!AmbientOcclusion(i)           // 0=disabled, 1=enabled
+!AmbientOcclusionQuality(i)    // 0=low, 1=medium, 2=high
+!ColorBlindMode(i)             // 0=none, 1=protanopia, 2=deuteranopia, 3=tritanopia
+!GpuFxQuality(i)               // 0=medium, 1=high
+!VoxelGiQuality(i)             // 0=off, 1=low, 2=medium, 3=high, 4=ultra
+!OptSpotsCastShadows(i)
+!LodQuality(i)                 // 0=low, 1=high
+!LodMultiplier(i)              // 100 = default, 50 = half, 200 = twice, 400 = 4xdefault etc.
+!AnisoOptOut()                 // Disable optional anisotropic filtering in some materials
+!AnisoOptMaxAnisotropy(i)      // Set maximum anisotropy ration for optional anisotropic samplers. Values: 1, 2, 4, 8, 16
+!FrameAmplification(i)         // 0=off, 1=DLSS
+!Version(i)
+
+RendererMode("d3d11")
+AsyncCompute(0)
+WindowMode(2)
+Resolution(640,480)
+Scale3D(0.400000)
+FSR(0.007300)
+Upscaler(3)
+Upscaling(0)
+Monitor(0)
+ExtraGameFov(20.00)
+DisableDWM(0)
+TextureQuality("Low")
+ShadowsQuality(0)
+ShadowMapSize(32)
+SpotShadowMapSize(32)
+GammaFloat(1.00)
+GrassQuality(0)
+FrameRate(0)
+Reflex(0)
+MotionBlur(0)
+MotionBlurIntensity(0.00)
+Bokeh(0)
+GlowGlare(0)
+GlowStreaks(0)
+LensFlare(0)
+SSSSQuality(0)
+MotionBlurQuality("Low")
+ChromaticAberration(0)
+FilmGrain(0)
+ColorGrading(4)
+AntiAliasing(0)
+AntiAliasingMode(0)
+FogQuality(0)
+ReflectionsQuality(0)
+ContactShadowsQuality(0)
+SpotShadowsQuality(0)
+AmbientOcclusion(0)
+AmbientOcclusionQuality(0)
+ColorBlindMode(0)
+GpuFxQuality(0)
+VoxelGiQuality(0)
+LodQuality(0)
+LodMultiplier(30)
+AnisoOptMaxAnisotropy(16)
+FrameAmplification(0)
+Version(2000)
