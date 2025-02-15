@@ -1,0 +1,44 @@
+RendererMode("d3d11")           // DX11 is lighter on iGPUs
+AsyncCompute(0)                 // iGPUs don’t benefit from async compute
+WindowMode(1)                   // Borderless mode for better stability
+Resolution(1280,720)            // Keep 720p for performance
+Scale3D(0.25)                   // Render at 320x180 for max FPS
+FSR(0.10)                       // Increase FSR sharpness for clarity
+Upscaler(3)                     // Use FSR1 (better on iGPUs)
+Upscaling(0)                    // Best performance mode
+Monitor(0)
+DisableDWM(1)                   // Disable DWM to free up RAM & VRAM
+TextureQuality("Low")           // Lower VRAM usage
+ShadowsQuality(0)
+ShadowMapSize(0)                // Disable shadow maps for max FPS
+SpotShadowMapSize(0)            // Disable spot shadows
+GammaFloat(1.00)
+GrassQuality(0)                 // No grass for huge FPS boost
+FrameRate(0)                    // No FPS cap
+Reflex(0)                       // iGPUs don’t benefit from Reflex
+MotionBlur(0)
+MotionBlurIntensity(0.00)
+Bokeh(0)
+GlowGlare(0)
+GlowStreaks(0)
+LensFlare(0)
+SSSSQuality(0)
+MotionBlurQuality("Low")
+ChromaticAberration(0)
+FilmGrain(0)
+ColorGrading(0)
+AntiAliasing(1)                 // Disable AA for more FPS
+FogQuality(0)                   // Disable fog
+ReflectionsQuality(0)           // Disable reflections
+ContactShadowsQuality(0)        // No contact shadows
+SpotShadowsQuality(0)           // No spot shadows
+AmbientOcclusion(0)             // Disable AO
+AmbientOcclusionQuality(0)      // No AO
+ColorBlindMode(0)
+GpuFxQuality(0)
+VoxelGiQuality(0)
+LodQuality(0)
+LodMultiplier(15)               // Lower LOD for better FPS
+AnisoOptMaxAnisotropy(1)        // Disable anisotropic filtering
+FrameAmplification(0)
+Version(2000)
